@@ -6,4 +6,5 @@
   (lib (name SeeedOPL-LED-2016)(type KiCad)(uri "$(KIPRJMOD)/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016.pretty")(options "")(descr ""))
   (lib (name SeeedOPL-Resistor-2016)(type KiCad)(uri "$(KIPRJMOD)/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016.pretty")(options "")(descr ""))
   (lib (name SeeedOPL-Switch-2016)(type KiCad)(uri "$(KIPRJMOD)/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016.pretty")(options "")(descr ""))
+  (lib (name "SeeedOPL-Crystal Oscillator-2016")(type KiCad)(uri "$(KIPRJMOD)/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Crystal Oscillator-2016.pretty")(options "")(descr ""))
 )

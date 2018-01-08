@@ -1,4 +1,4 @@
-update=07.01.2018 18.56.43
+update=2018 January 08, Monday 15:59:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,4 @@ LibName33=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-IC-2016
 LibName34=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016
 LibName35=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016
 LibName36=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016
+LibName37=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Crystal Oscillator-2016
