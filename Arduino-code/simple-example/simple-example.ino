@@ -48,7 +48,7 @@ void setup() {
   DDRD = ((1 << SEGMENT_A) | (1 << SEGMENT_F) | (1 << COM1));
   DDRF = ((1 << SEGMENT_C) | (1 << SEGMENT_D) | (1 << SEGMENT_E) | (1 << SEGMENT_G) | (1 << SEGMENT_DP) | (1 << COM4));
   DDRE = (1 << BUZZER);
-
+  
 
   // Disable buzzer
   enable_buzzer(false);
@@ -78,22 +78,22 @@ void loop() {
   set_digit(disp1_value);
   set_segDP(false);
   enable_digit_x(1);
-  _delay_ms(100);
+  _delay_ms(5);
 
   set_digit(disp2_value);
   set_segDP(true);
   enable_digit_x(2);
-  _delay_ms(100);
+  _delay_ms(5);
 
   set_digit(disp3_value);
   set_segDP(false);
   enable_digit_x(3);
-  _delay_ms(100);
+  _delay_ms(5);
 
   set_digit(disp4_value);
   set_segDP(false);
   enable_digit_x(4);
-  _delay_ms(100);
+  _delay_ms(5);
 
 }
 

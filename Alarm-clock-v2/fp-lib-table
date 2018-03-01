@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 7seg-4digit)(type KiCad)(uri C:/Users/oyvda/Documents/git/AlarmClock/lib/7seg-4digit.pretty)(options "")(descr ""))
+)
