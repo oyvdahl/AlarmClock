@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Alarm-clock-v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -248,7 +249,6 @@ NoConn ~ 5200 3550
 NoConn ~ 5200 4050
 NoConn ~ 5200 4250
 NoConn ~ 5200 4350
-NoConn ~ 5200 4550
 NoConn ~ 5200 5050
 NoConn ~ 2950 5250
 NoConn ~ 1750 4400
@@ -729,4 +729,32 @@ Text Label 5300 3250 0    60   ~ 0
 A
 Text Label 5250 4750 0    60   ~ 0
 DIGIT1
+$Comp
+L Buzzer BZ1
+U 1 1 5A997B30
+P 6200 4650
+F 0 "BZ1" H 6350 4700 50  0000 L CNN
+F 1 "Buzzer" H 6350 4600 50  0000 L CNN
+F 2 "Buzzers_Beepers:BUZZER" V 6175 4750 50  0001 C CNN
+F 3 "" V 6175 4750 50  0001 C CNN
+	1    6200 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4550 6100 4550
+$Comp
+L GND #PWR014
+U 1 1 5A997C88
+P 6000 4850
+F 0 "#PWR014" H 6000 4600 50  0001 C CNN
+F 1 "GND" H 6000 4700 50  0000 C CNN
+F 2 "" H 6000 4850 50  0001 C CNN
+F 3 "" H 6000 4850 50  0001 C CNN
+	1    6000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4850 6000 4750
+Wire Wire Line
+	6000 4750 6100 4750
 $EndSCHEMATC
